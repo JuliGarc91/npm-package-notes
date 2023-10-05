@@ -26,3 +26,16 @@ const veryNestedObject = {
 
 // Using the imported package to call a function within the package
 lolcats.print(veryNestedObject.one.two.three.four.five)
+
+//Exporting multiple functions from a file:
+// const myNameIs = (name) => {
+//     return `Hi my name is ${name}`
+// }
+
+
+// const myAgeIs = (age) => {
+//     return `Hi I am ${age} years old`
+// }
+
+
+// module.exports = { myNameIs, myAgeIs }
