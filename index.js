@@ -24,4 +24,5 @@ const veryNestedObject = {
 }; 
 // console.log( inspect(veryNestedObject, { depth: 5, colors: true }) );
 
+// Using the imported package to call a function within the package
 lolcats.print(veryNestedObject.one.two.three.four.five)
